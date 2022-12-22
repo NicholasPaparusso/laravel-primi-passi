@@ -35,7 +35,15 @@
         </div>
     </header>
     <main>
-
+        <div class="container">
+            @foreach ($team as $member)
+                <div class="box">
+                    <img src="{{$member['img']}}" alt="{{$member['name']}}">
+                    <p>{{$member['name']}}</p>
+                    <p>{{$member['descr']}}</p>
+                </div>
+            @endforeach
+        </div>
     </main>
 </body>
 </html>
