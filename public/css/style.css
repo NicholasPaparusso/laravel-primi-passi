@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Scada', sans-serif;
+}
+
+.container{
+    width: 70%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    color: #d7d7dc;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #e7e8f2;
+}
+
+header{
+    background-color: #13151e;
+    height: 80px;
+}
+
+main{
+    background-color: #171923;
+    height: calc(100vh - 80px);
+}
+
+h1{
+    color: #ff2d20;
+    font-size: 40px;
+}
+
+body{
+    color: #e7e8f2;
+}
+
